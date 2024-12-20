@@ -57,7 +57,7 @@ def run_sim(scene, enable_vis):
         t_now = time()
         print(1 / (t_now - t_prev), "FPS")
         t_prev = t_now
-        if i > 200:
+        if i > 20000:
             break
 
     if enable_vis:
